@@ -146,6 +146,9 @@ main {
     header .nav li a {
         color: var(--primary-color);
     }
+    header .nav li a:hover {
+        color: var(--primary-color);
+    }
     header .nav li:hover {
         background-color: var(--hover-color);
     }
