@@ -1,47 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-            <div class="brand"><a href="#"><span class="symbol">&#9832;</span><span class="text">BRAND</span></a></div>
-            <label for="toggle" onclick="hideNav()">&#9776;</label>
-            <input type="checkbox" id="toggle">
-            <ul class="nav" id="topNav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="brand"><a href="#"><span class="symbol">&#9832;</span><span class="text">BRAND</span></a></div>
+        <label for="toggle" onclick="hideNav()">&#9776;</label>
+        <input type="checkbox" id="toggle">
+        <ul class="nav" id="topNav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </header>
-<main>
-    <h1>The Responsive NAV Menu</h1>
-    <p>This is a small template starter for a responsive navigation menu.</p>
-</main>
-    <script>
-        // document.getElementById('toggle').checked = true
-        window.addEventListener('resize', function() {
-            if (document.documentElement.clientWidth > 600) {
-                document.getElementById('topNav').style.display = "block"
-            } else {
-                document.getElementById('topNav').style.display = "none"
-            }
-        })
-        function hideNav() {
-            // document.getElementById('topNav').style.display = "block";
-            chkBox = document.getElementById('toggle');
-            // alert(chkBox.checked)
-            if (chkBox.checked) {
-                document.getElementById('topNav').style.display = "none"
-            }
-            else {
-                document.getElementById('topNav').style.display = "block"
-            }
-        }
-    </script>
+    <main>
+        <h1>The Responsive NAV Menu</h1>
+        <p>This is a small template starter for a responsive navigation menu.</p>
+    </main>
+    <script src="main.js"></script>
 </body>
+
 </html>
