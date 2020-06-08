@@ -16,3 +16,10 @@ function hideNav() {
         document.getElementById('topNav').style.display = "block"
     }
 }
+
+
+// document.onload(function() {
+//     var docHeight = document.documentElement.clientHeight
+//     var footerHeight = docHeight - 10
+//     document.getElementsByTagName('footer').style = "margin: 300px 0 0 0"
+// })

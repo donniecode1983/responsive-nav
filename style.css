@@ -16,6 +16,11 @@ body {
     margin: 0;
 }
 
+.push,
+footer {
+    height: 50px;
+}
+
 h1,
 h2,
 h3,
@@ -89,8 +94,11 @@ header .nav li a:hover {
 
 main {
     width: 960px;
+    min-height: 100%;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: -50%;
+    display: block;
 }
 
 @media only screen and (max-width: 1080px) {
